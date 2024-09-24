@@ -1,0 +1,10 @@
+{
+  "name": "Two_Face",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Enhanced: raise power of allied and enemy cards on affected tiles by 4.\nEnfeebled: lower their power by 4.",
+  "number": 66,
+  "rarity": "Standard",
+  "image": "res://cards/images/066_Two_Face.png"
+}

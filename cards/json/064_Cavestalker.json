@@ -1,0 +1,10 @@
+{
+  "name": "Cavestalker",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 2.",
+  "number": 64,
+  "rarity": "Standard",
+  "image": "res://cards/images/064_Cavestalker.png"
+}

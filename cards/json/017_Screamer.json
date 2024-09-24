@@ -1,0 +1,10 @@
+{
+  "name": "Screamer",
+  "rank": "3",
+  "power": 1,
+  "hasAbility": false,
+  "ability": "",
+  "number": 17,
+  "rarity": "Standard",
+  "image": "res://cards/images/017_Screamer.png"
+}

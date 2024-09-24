@@ -1,0 +1,10 @@
+{
+  "name": "Stone_Golem",
+  "rank": "1",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When first enhanced, lower the power of enemy cards on affected tiles by 4.",
+  "number": 65,
+  "rarity": "Standard",
+  "image": "res://cards/images/065_Stone_Golem.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Titan",
+  "rank": "2",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When played, raise position ranks by 2.",
+  "number": 98,
+  "rarity": "Legendary",
+  "image": "res://cards/images/098_Titan.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Haunted_Hotel",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tilles by 2 while this card is in play.",
+  "number": 137,
+  "rarity": "Legendary",
+  "image": "res://cards/images/137_Haunted_Hotel.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Mindflayer",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Lower the power of allied and enemy cards on affected tiles by 1 while this card is in play.",
+  "number": 27,
+  "rarity": "Standard",
+  "image": "res://cards/images/027_Mindflayer.png"
+}

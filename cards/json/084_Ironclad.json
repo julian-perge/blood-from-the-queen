@@ -1,0 +1,10 @@
+{
+  "name": "Ironclad",
+  "rank": "3",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise power by 3 for each enhanced enemy card.",
+  "number": 84,
+  "rarity": "Standard",
+  "image": "res://cards/images/084_Ironclad.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Bahamut",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When played, lower the power of enemy cards on affected tiles by 5.",
+  "number": 104,
+  "rarity": "Legendary",
+  "image": "res://cards/images/104_Bahamut.png"
+}

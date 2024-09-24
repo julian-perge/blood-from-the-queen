@@ -1,0 +1,10 @@
+{
+	"name": "Yuffie",
+	"rank": "Replace",
+	"power": 1,
+	"hasAbility": true,
+	"ability": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power.",
+	"number": 91,
+	"rarity": "Legendary",
+	"image": "res://cards/images/091_Yuffie.png"
+}

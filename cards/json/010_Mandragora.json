@@ -1,0 +1,10 @@
+{
+  "name": "Mandragora",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, add Mandragora Minion to your hand.",
+  "number": 10,
+  "rarity": "Standard",
+  "image": "res://cards/images/010_Mandragora.png"
+}

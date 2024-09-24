@@ -1,0 +1,10 @@
+{
+  "name": "Grandhorn",
+  "rank": "Replace",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Destroy an allied card and replace it.",
+  "number": 54,
+  "rarity": "Standard",
+  "image": "res://cards/images/054_Grandhorn.png"
+}

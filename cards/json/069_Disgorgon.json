@@ -1,0 +1,10 @@
+{
+  "name": "Disgorgon",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When played, raise position ranks by 2.",
+  "number": 69,
+  "rarity": "Standard",
+  "image": "res://cards/images/069_Disgorgon.png"
+}

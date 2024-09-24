@@ -1,0 +1,10 @@
+{
+  "name": "Great_Malboro",
+  "rank": "3",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected tiles by 6.",
+  "number": 55,
+  "rarity": "Standard",
+  "image": "res://cards/images/055_Great_Malboro.png"
+}

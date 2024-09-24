@@ -1,0 +1,10 @@
+{
+  "name": "Grasptropod",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When first enhanced, lower the power of allied and enemy cards on affected tiles by 4.",
+  "number": 116,
+  "rarity": "Legendary",
+  "image": "res://cards/images/116_Grasptropod.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Flan",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "",
+  "number": 18,
+  "rarity": "Standard",
+  "image": "res://cards/images/018_Flan.png"
+}

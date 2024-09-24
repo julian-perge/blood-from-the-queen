@@ -1,0 +1,10 @@
+{
+  "name": "Yin__Yang",
+  "rank": "Replace",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power.",
+  "number": 76,
+  "rarity": "Standard",
+  "image": "res://cards/images/076_Yin__Yang.png"
+}

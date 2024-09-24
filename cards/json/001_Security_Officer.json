@@ -1,0 +1,10 @@
+{
+  "name": "Security_Officer",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": false,
+  "ability": "",
+  "number": 1,
+  "rarity": "Standard",
+  "image": "res://cards/images/001_Security_Officer.png"
+}

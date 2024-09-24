@@ -1,0 +1,10 @@
+{
+  "name": "Chocobo_Jockey",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When you win the lane, receive a score bonus of 10.",
+  "number": 135,
+  "rarity": "Legendary",
+  "image": "res://cards/images/135_Chocobo_Jockey.png"
+}

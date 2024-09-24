@@ -1,0 +1,10 @@
+{
+  "name": "Alexander",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "Raise power by 3 for each other enfeebled allied card.",
+  "number": 103,
+  "rarity": "Legendary",
+  "image": "res://cards/images/103_Alexander.png"
+}

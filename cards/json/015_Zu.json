@@ -1,0 +1,10 @@
+{
+  "name": "Zu",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "",
+  "number": 15,
+  "rarity": "Standard",
+  "image": "res://cards/images/015_Zu.png"
+}

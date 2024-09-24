@@ -1,0 +1,10 @@
+{
+  "name": "Odin",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Raise power by 2 for each enhanced enemy card.",
+  "number": 100,
+  "rarity": "Legendary",
+  "image": "res://cards/images/100_Odin.png"
+}

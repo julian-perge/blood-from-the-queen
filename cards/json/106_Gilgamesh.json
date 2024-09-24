@@ -1,0 +1,10 @@
+{
+  "name": "Gilgamesh",
+  "rank": "Replace",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power.",
+  "number": 106,
+  "rarity": "Legendary",
+  "image": "res://cards/images/106_Gilgamesh.png"
+}

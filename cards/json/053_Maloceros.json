@@ -1,0 +1,10 @@
+{
+  "name": "Maloceros",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When you win the lane, receive a score bonus of 10.",
+  "number": 53,
+  "rarity": "Standard",
+  "image": "res://cards/images/053_Maloceros.png"
+}

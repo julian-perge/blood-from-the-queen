@@ -1,0 +1,10 @@
+{
+  "name": "Quetzalcoatl",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": false,
+  "ability": "",
+  "number": 14,
+  "rarity": "Standard",
+  "image": "res://cards/images/014_Quetzalcoatl.png"
+}

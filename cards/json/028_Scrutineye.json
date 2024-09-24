@@ -1,0 +1,10 @@
+{
+  "name": "Scrutineye",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied and enemy cards on affected tiles by 1 while this card is in play.",
+  "number": 28,
+  "rarity": "Standard",
+  "image": "res://cards/images/028_Scrutineye.png"
+}

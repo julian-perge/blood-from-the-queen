@@ -1,0 +1,10 @@
+{
+  "name": "Kujata",
+  "rank": "3",
+  "power": 6,
+  "hasAbility": true,
+  "ability": "When first enhanced, lower the power of enemy cards on affected tiles by 5.",
+  "number": 99,
+  "rarity": "Legendary",
+  "image": "res://cards/images/099_Kujata.png"
+}

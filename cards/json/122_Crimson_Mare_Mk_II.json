@@ -1,0 +1,10 @@
+{
+  "name": "Crimson_Mare_Mk_II",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When first enfeebled, lower the power of allied and enemy cards on affected tiles by 5.",
+  "number": 122,
+  "rarity": "Legendary",
+  "image": "res://cards/images/122_Crimson_Mare_Mk_II.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Loveless",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, raise the power of allied and enemy cards on affected tiles by 1.",
+  "number": 139,
+  "rarity": "Legendary",
+  "image": "res://cards/images/139_Loveless.png"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Grasslands_Wolf",
+	"rank": "1",
+	"power": 2,
+	"hasAbility": false,
+	"ability": "",
+	"number": 8,
+	"rarity": "Standard",
+	"image": "res://cards/images/008_Grasslands_Wolf.png"
+}

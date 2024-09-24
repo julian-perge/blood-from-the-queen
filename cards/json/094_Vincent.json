@@ -1,0 +1,10 @@
+{
+  "name": "Vincent",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When destroyed, add Galian Beast to your hand.",
+  "number": 94,
+  "rarity": "Legendary",
+  "image": "res://cards/images/094_Vincent.png"
+}

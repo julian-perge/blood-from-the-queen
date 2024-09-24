@@ -1,0 +1,10 @@
+{
+  "name": "Valron",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Raise power by 2 for each other enfeebled allied card.",
+  "number": 68,
+  "rarity": "Standard",
+  "image": "res://cards/images/068_Valron.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Insectoid_Chimera",
+  "rank": "Replace",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "Destroy an allied card and replace it.",
+  "number": 51,
+  "rarity": "Standard",
+  "image": "res://cards/images/051_Insectoid_Chimera.png"
+}

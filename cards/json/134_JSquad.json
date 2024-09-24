@@ -1,0 +1,10 @@
+{
+  "name": "JSquad",
+  "rank": "3",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When played, spawn Hype Johnnys\u2014cards that enhance while in play\u2014in your empty positions.",
+  "number": 134,
+  "rarity": "Legendary",
+  "image": "res://cards/images/134_JSquad.png"
+}

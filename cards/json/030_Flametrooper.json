@@ -1,0 +1,10 @@
+{
+  "name": "Flametrooper",
+  "rank": "1",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When destroyed, lower the power of allied and enemy cards on affected tiles by 3.",
+  "number": 30,
+  "rarity": "Standard",
+  "image": "res://cards/images/030_Flametrooper.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Sephiroth",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When played, destroy enemy cards on affected tiles.",
+  "number": 143,
+  "rarity": "Legendary",
+  "image": "res://cards/images/143_Sephiroth.png"
+}

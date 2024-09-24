@@ -1,0 +1,10 @@
+{
+  "name": "Rude",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 2 while this card is in play.",
+  "number": 129,
+  "rarity": "Legendary",
+  "image": "res://cards/images/129_Rude.png"
+}

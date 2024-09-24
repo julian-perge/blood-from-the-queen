@@ -1,0 +1,10 @@
+{
+  "name": "Chimera",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "Raise power by 2 for each enfeebled enemy card.",
+  "number": 46,
+  "rarity": "Standard",
+  "image": "res://cards/images/046_Chimera.png"
+}

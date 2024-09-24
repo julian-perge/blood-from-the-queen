@@ -1,0 +1,10 @@
+{
+  "name": "Aerith",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 3 while this card is in play.",
+  "number": 89,
+  "rarity": "Legendary",
+  "image": "res://cards/images/089_Aerith.png"
+}

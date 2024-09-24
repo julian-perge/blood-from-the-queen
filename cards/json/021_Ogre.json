@@ -1,0 +1,10 @@
+{
+  "name": "Ogre",
+  "rank": "2",
+  "power": 5,
+  "hasAbility": false,
+  "ability": "",
+  "number": 21,
+  "rarity": "Standard",
+  "image": "res://cards/images/021_Ogre.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Gigantoad",
+  "rank": "Replace",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Destroy an allied card and replace it.",
+  "number": 52,
+  "rarity": "Standard",
+  "image": "res://cards/images/052_Gigantoad.png"
+}

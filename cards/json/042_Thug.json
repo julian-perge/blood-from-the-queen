@@ -1,0 +1,10 @@
+{
+  "name": "Thug",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": false,
+  "ability": "",
+  "number": 42,
+  "rarity": "Standard",
+  "image": "res://cards/images/042_Thug.png"
+}

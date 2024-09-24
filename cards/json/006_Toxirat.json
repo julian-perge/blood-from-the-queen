@@ -1,0 +1,10 @@
+{
+  "name": "Toxirat",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected tiles by 3.",
+  "number": 6,
+  "rarity": "Standard",
+  "image": "res://cards/images/006_Toxirat.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Queen_Bee",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": false,
+  "ability": "",
+  "number": 5,
+  "rarity": "Standard",
+  "image": "res://cards/images/005_Queen_Bee.png"
+}

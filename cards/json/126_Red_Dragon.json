@@ -1,0 +1,10 @@
+{
+  "name": "Red_Dragon",
+  "rank": "3",
+  "power": 6,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected tiles by 4.",
+  "number": 126,
+  "rarity": "Legendary",
+  "image": "res://cards/images/126_Red_Dragon.png"
+}

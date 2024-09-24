@@ -1,0 +1,10 @@
+{
+  "name": "Griffon",
+  "rank": "Replace",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power.",
+  "number": 59,
+  "rarity": "Standard",
+  "image": "res://cards/images/059_Griffon.png"
+}

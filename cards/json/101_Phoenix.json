@@ -1,0 +1,10 @@
+{
+  "name": "Phoenix",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When destroyed, raise the power of allied cards on affected tiles by 5.",
+  "number": 101,
+  "rarity": "Legendary",
+  "image": "res://cards/images/101_Phoenix.png"
+}

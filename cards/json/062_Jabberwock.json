@@ -1,0 +1,10 @@
+{
+  "name": "Jabberwock",
+  "rank": "2",
+  "power": 6,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected",
+  "number": 62,
+  "rarity": "Standard",
+  "image": "res://cards/images/062_Jabberwock.png"
+}

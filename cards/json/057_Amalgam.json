@@ -1,0 +1,10 @@
+{
+  "name": "Amalgam",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When destroyed, add Resurrected Amalgam to your hand.",
+  "number": 57,
+  "rarity": "Standard",
+  "image": "res://cards/images/057_Amalgam.png"
+}

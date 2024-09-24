@@ -1,0 +1,10 @@
+{
+  "name": "Grenadier",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, lower the power of enemy cards on affected tiles by 4.",
+  "number": 3,
+  "rarity": "Standard",
+  "image": "res://cards/images/003_Grenadier.png"
+}

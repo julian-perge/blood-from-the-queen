@@ -1,0 +1,10 @@
+{
+  "name": "Red_XIII",
+  "rank": "1",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 2.",
+  "number": 90,
+  "rarity": "Legendary",
+  "image": "res://cards/images/090_Red_XIII.png"
+}

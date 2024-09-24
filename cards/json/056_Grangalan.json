@@ -1,0 +1,10 @@
+{
+  "name": "Grangalan",
+  "rank": "3",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When played, add Grangalan Junior to your hand.",
+  "number": 56,
+  "rarity": "Standard",
+  "image": "res://cards/images/056_Grangalan.png"
+}

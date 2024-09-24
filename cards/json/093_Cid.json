@@ -1,0 +1,10 @@
+{
+  "name": "Cid",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When played, add The Tiny Bronco to your hand.",
+  "number": 93,
+  "rarity": "Legendary",
+  "image": "res://cards/images/093_Cid.png"
+}

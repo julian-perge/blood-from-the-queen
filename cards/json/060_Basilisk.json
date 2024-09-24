@@ -1,0 +1,10 @@
+{
+  "name": "Basilisk",
+  "rank": "3",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When played, destroy enemy cards on affected tiles.",
+  "number": 60,
+  "rarity": "Standard",
+  "image": "res://cards/images/060_Basilisk.png"
+}

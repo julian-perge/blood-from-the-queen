@@ -1,0 +1,10 @@
+{
+  "name": "Mu",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 1 while this card is in play.",
+  "number": 9,
+  "rarity": "Standard",
+  "image": "res://cards/images/009_Mu.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Bahamut_Arisen",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When played, spawn Elementals\u2014cards that enhance when destroyed\u2014in your empty positions.",
+  "number": 105,
+  "rarity": "Legendary",
+  "image": "res://cards/images/105_Bahamut_Arisen.png"
+}

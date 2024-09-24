@@ -1,0 +1,10 @@
+{
+  "name": "Floating_Death",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected tiles by 1.",
+  "number": 83,
+  "rarity": "Standard",
+  "image": "res://cards/images/083_Floating_Death.png"
+}

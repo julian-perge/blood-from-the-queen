@@ -1,0 +1,10 @@
+{
+  "name": "Dio",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "Raise power by 1 for each other enhanced allied and enemy card.",
+  "number": 141,
+  "rarity": "Legendary",
+  "image": "res://cards/images/141_Dio.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Shiva",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When played, spawn Diamond Dust of power 2, 4, or 6 in empty positions.",
+  "number": 96,
+  "rarity": "Legendary",
+  "image": "res://cards/images/096_Shiva.png"
+}

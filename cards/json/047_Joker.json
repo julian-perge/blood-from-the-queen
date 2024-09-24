@@ -1,0 +1,10 @@
+{
+  "name": "Joker",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When allied and enemy cards are destroyed, raise this card's power by 1.",
+  "number": 47,
+  "rarity": "Standard",
+  "image": "res://cards/images/047_Joker.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Skeeskee",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When allied cards are destroyed, raise this card's power by 1.",
+  "number": 58,
+  "rarity": "Standard",
+  "image": "res://cards/images/058_Skeeskee.png"
+}

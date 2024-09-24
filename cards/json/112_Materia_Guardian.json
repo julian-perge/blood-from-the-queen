@@ -1,0 +1,10 @@
+{
+  "name": "Materia_Guardian",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 6.",
+  "number": 112,
+  "rarity": "Legendary",
+  "image": "res://cards/images/112_Materia_Guardian.png"
+}

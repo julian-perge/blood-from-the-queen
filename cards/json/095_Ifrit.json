@@ -1,0 +1,10 @@
+{
+  "name": "Ifrit",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "Raise power by 2 for each other enhanced allied card.",
+  "number": 95,
+  "rarity": "Legendary",
+  "image": "res://cards/images/095_Ifrit.png"
+}

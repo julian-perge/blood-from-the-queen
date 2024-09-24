@@ -1,0 +1,10 @@
+{
+  "name": "Dragon",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When played, lower the power of enemy cards on affected tiles by 4.",
+  "number": 70,
+  "rarity": "Standard",
+  "image": "res://cards/images/070_Dragon.png"
+}

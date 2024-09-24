@@ -1,0 +1,10 @@
+{
+  "name": "Gigatrice",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When played, destroy allied and enemy cards on affected tiles.",
+  "number": 118,
+  "rarity": "Legendary",
+  "image": "res://cards/images/118_Gigatrice.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Moogle_Trio",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, add both Moogle Mage and Moogle Bard to your hand.",
+  "number": 110,
+  "rarity": "Legendary",
+  "image": "res://cards/images/110_Moogle_Trio.png"
+}

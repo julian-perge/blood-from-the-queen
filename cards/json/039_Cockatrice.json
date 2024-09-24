@@ -1,0 +1,10 @@
+{
+  "name": "Cockatrice",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When played, destroy allied and enemy cards on affected tiles.",
+  "number": 39,
+  "rarity": "Standard",
+  "image": "res://cards/images/039_Cockatrice.png"
+}

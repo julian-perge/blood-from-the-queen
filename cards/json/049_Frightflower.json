@@ -1,0 +1,10 @@
+{
+  "name": "Frightflower",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When destroyed, raise the power of allied and enemy cards on affected tiles by 2.",
+  "number": 49,
+  "rarity": "Standard",
+  "image": "res://cards/images/049_Frightflower.png"
+}

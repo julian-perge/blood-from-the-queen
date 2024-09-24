@@ -1,0 +1,10 @@
+{
+  "name": "Rufus",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "Creates an intimidatingly large number of positions around him when played.",
+  "number": 132,
+  "rarity": "Legendary",
+  "image": "res://cards/images/132_Rufus.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Crawler",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "",
+  "number": 19,
+  "rarity": "Standard",
+  "image": "res://cards/images/019_Crawler.png"
+}

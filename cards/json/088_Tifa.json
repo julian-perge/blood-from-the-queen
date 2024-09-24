@@ -1,0 +1,10 @@
+{
+  "name": "Tifa",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When you win the lane, receive a score bonus of 5.",
+  "number": 88,
+  "rarity": "Legendary",
+  "image": "res://cards/images/088_Tifa.png"
+}

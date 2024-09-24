@@ -1,0 +1,10 @@
+{
+  "name": "Bomb",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When destroyed, lower the power of allied and enemy cards on affected tiles by 4.",
+  "number": 41,
+  "rarity": "Standard",
+  "image": "res://cards/images/041_Bomb.png"
+}

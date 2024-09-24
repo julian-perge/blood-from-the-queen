@@ -1,0 +1,10 @@
+{
+  "name": "Sandhog_Pie",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When destroyed, raise the power of allied cards on affected tile by 3.",
+  "number": 36,
+  "rarity": "Standard",
+  "image": "res://cards/images/036_Sandhog_Pie.png"
+}

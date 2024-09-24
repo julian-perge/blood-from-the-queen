@@ -1,0 +1,10 @@
+{
+  "name": "Devil_Rider",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": false,
+  "ability": "",
+  "number": 16,
+  "rarity": "Standard",
+  "image": "res://cards/images/016_Devil_Rider.png"
+}

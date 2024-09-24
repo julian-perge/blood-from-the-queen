@@ -1,0 +1,10 @@
+{
+  "name": "Mythril_Golem",
+  "rank": "3",
+  "power": 8,
+  "hasAbility": true,
+  "ability": "Possesses a crystal-hard resolve and an overwhelming amount of power.",
+  "number": 114,
+  "rarity": "Legendary",
+  "image": "res://cards/images/114_Mythril_Golem.png"
+}

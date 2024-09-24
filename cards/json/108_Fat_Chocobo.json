@@ -1,0 +1,10 @@
+{
+  "name": "Fat_Chocobo",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "Creates a surfeit of positions around it when played.",
+  "number": 108,
+  "rarity": "Legendary",
+  "image": "res://cards/images/108_Fat_Chocobo.png"
+}

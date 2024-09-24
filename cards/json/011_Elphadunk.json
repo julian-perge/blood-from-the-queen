@@ -1,0 +1,10 @@
+{
+  "name": "Elphadunk",
+  "rank": "2",
+  "power": 4,
+  "hasAbility": false,
+  "ability": "",
+  "number": 11,
+  "rarity": "Standard",
+  "image": "res://cards/images/011_Elphadunk.png"
+}

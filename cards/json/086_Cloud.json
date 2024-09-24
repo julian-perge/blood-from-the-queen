@@ -1,0 +1,10 @@
+{
+  "name": "Cloud",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When this card's power first reaches 7, raise the power of allied cards on affected tiles by 2.",
+  "number": 86,
+  "rarity": "Legendary",
+  "image": "res://cards/images/086_Cloud.png"
+}

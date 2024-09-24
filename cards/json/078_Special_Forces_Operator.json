@@ -1,0 +1,10 @@
+{
+  "name": "Special_Forces_Operator",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 2 while this card is in play.",
+  "number": 78,
+  "rarity": "Standard",
+  "image": "res://cards/images/078_Special_Forces_Operator.png"
+}

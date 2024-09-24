@@ -1,0 +1,10 @@
+{
+  "name": "Bloatfloat",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When destroyed, lower the power of allied and enemy cards on affected tiles by 4.",
+  "number": 37,
+  "rarity": "Standard",
+  "image": "res://cards/images/037_Bloatfloat.png"
+}

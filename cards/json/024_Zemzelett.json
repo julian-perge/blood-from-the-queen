@@ -1,0 +1,10 @@
+{
+  "name": "Zemzelett",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards",
+  "number": 24,
+  "rarity": "Standard",
+  "image": "res://cards/images/024_Zemzelett.png"
+}

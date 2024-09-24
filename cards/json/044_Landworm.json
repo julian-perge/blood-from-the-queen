@@ -1,0 +1,10 @@
+{
+  "name": "Landworm",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When enemy cards are destroyed, raise this card's power by 2.",
+  "number": 44,
+  "rarity": "Standard",
+  "image": "res://cards/images/044_Landworm.png"
+}

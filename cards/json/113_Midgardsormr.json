@@ -1,0 +1,10 @@
+{
+  "name": "Midgardsormr",
+  "rank": "3",
+  "power": 6,
+  "hasAbility": true,
+  "ability": "When allied and enemy cards are destroyed, raise this card's power by 1.",
+  "number": 113,
+  "rarity": "Legendary",
+  "image": "res://cards/images/113_Midgardsormr.png"
+}

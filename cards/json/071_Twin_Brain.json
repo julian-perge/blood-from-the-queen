@@ -1,0 +1,10 @@
+{
+  "name": "Twin_Brain",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When played, raise position ranks by 2.",
+  "number": 71,
+  "rarity": "Standard",
+  "image": "res://cards/images/071_Twin_Brain.png"
+}

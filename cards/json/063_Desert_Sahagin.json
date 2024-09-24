@@ -1,0 +1,10 @@
+{
+  "name": "Desert_Sahagin",
+  "rank": "1",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When first enfeebled, raise the power of allied cards on affected tiles by 4.",
+  "number": 63,
+  "rarity": "Standard",
+  "image": "res://cards/images/063_Desert_Sahagin.png"
+}

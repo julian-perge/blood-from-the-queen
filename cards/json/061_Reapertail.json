@@ -1,0 +1,10 @@
+{
+  "name": "Reapertail",
+  "rank": "1",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 2.",
+  "number": 61,
+  "rarity": "Standard",
+  "image": "res://cards/images/061_Reapertail.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Ultimate_Party_Animal",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "If this card is in play when the round ends, the loser of each lane's score is added to the victor's.",
+  "number": 142,
+  "rarity": "Legendary",
+  "image": "res://cards/images/142_Ultimate_Party_Animal.png"
+}

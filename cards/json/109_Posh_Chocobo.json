@@ -1,0 +1,10 @@
+{
+  "name": "Posh_Chocobo",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When you win the lane, receive a score bonus of 3.",
+  "number": 109,
+  "rarity": "Legendary",
+  "image": "res://cards/images/109_Posh_Chocobo.png"
+}

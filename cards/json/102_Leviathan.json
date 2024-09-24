@@ -1,0 +1,10 @@
+{
+  "name": "Leviathan",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "Lower the power of enemy cards on affected tiles by 3 while this card is in play.",
+  "number": 102,
+  "rarity": "Legendary",
+  "image": "res://cards/images/102_Leviathan.png"
+}

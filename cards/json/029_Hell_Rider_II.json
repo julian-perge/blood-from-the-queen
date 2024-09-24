@@ -1,0 +1,10 @@
+{
+  "name": "Hell_Rider_II",
+  "rank": "3",
+  "power": 5,
+  "hasAbility": true,
+  "ability": "When played, lower the power of enemy cards on affected tiles by 3.",
+  "number": 29,
+  "rarity": "Standard",
+  "image": "res://cards/images/029_Hell_Rider_II.png"
+}

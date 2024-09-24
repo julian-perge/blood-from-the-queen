@@ -1,0 +1,10 @@
+{
+  "name": "Rictus",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "Raise power by 1 for each other enfeebled allied and enemy card.",
+  "number": 74,
+  "rarity": "Standard",
+  "image": "res://cards/images/074_Rictus.png"
+}

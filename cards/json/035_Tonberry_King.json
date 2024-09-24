@@ -1,0 +1,10 @@
+{
+  "name": "Tonberry_King",
+  "rank": "2",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When allied cards are destroyed, raise this card's power by 2.",
+  "number": 35,
+  "rarity": "Standard",
+  "image": "res://cards/images/035_Tonberry_King.png"
+}

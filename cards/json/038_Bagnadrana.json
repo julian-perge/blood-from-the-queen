@@ -1,0 +1,10 @@
+{
+  "name": "Bagnadrana",
+  "rank": "3",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When enemy cards are played from hand, raise this card's power by 1.",
+  "number": 38,
+  "rarity": "Standard",
+  "image": "res://cards/images/038_Bagnadrana.png"
+}

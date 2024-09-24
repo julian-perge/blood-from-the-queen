@@ -1,0 +1,10 @@
+{
+  "name": "Tseng",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "The first time this card is enhanced, raise the power of allied cards on affected tiles by 4.",
+  "number": 131,
+  "rarity": "Legendary",
+  "image": "res://cards/images/131_Tseng.png"
+}

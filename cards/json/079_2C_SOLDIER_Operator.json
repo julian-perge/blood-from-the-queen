@@ -1,0 +1,10 @@
+{
+  "name": "2C_SOLDIER_Operator",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 3 while this card is in play.",
+  "number": 79,
+  "rarity": "Standard",
+  "image": "res://cards/images/079_2C_SOLDIER_Operator.png"
+}

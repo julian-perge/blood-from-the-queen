@@ -1,0 +1,10 @@
+{
+  "name": "Crystalline_Crab",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise the power of allied cards on affected tiles by 2 while this card is in play.",
+  "number": 13,
+  "rarity": "Standard",
+  "image": "res://cards/images/013_Crystalline_Crab.png"
+}

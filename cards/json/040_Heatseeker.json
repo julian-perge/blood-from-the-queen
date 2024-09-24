@@ -1,0 +1,10 @@
+{
+  "name": "Heatseeker",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "When destroyed, add Heatseeker Minion to your hand.",
+  "number": 40,
+  "rarity": "Standard",
+  "image": "res://cards/images/040_Heatseeker.png"
+}

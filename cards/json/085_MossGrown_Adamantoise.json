@@ -1,0 +1,10 @@
+{
+  "name": "MossGrown_Adamantoise",
+  "rank": "3",
+  "power": 4,
+  "hasAbility": true,
+  "ability": "When played, raise position ranks by 3.",
+  "number": 85,
+  "rarity": "Standard",
+  "image": "res://cards/images/085_MossGrown_Adamantoise.png"
+}

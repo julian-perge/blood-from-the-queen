@@ -1,0 +1,10 @@
+{
+  "name": "Crown_Lance",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When played, lower the power of allied and enemy cards on affected tiles by 2.",
+  "number": 34,
+  "rarity": "Standard",
+  "image": "res://cards/images/034_Crown_Lance.png"
+}

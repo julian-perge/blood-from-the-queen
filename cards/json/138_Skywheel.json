@@ -1,0 +1,10 @@
+{
+  "name": "Skywheel",
+  "rank": "3",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "Adds positions in the shape of a certain Gold Saucer attraction.",
+  "number": 138,
+  "rarity": "Legendary",
+  "image": "res://cards/images/138_Skywheel.png"
+}

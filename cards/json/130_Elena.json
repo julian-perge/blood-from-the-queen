@@ -1,0 +1,10 @@
+{
+  "name": "Elena",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": true,
+  "ability": "When first enhanced, lower the power of allied and enemy cards on affected tiles by 99.",
+  "number": 130,
+  "rarity": "Legendary",
+  "image": "res://cards/images/130_Elena.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Shadowblood_Queen",
+  "rank": "3",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Raise power by 3 for each other enfeebled allied card and enemy card.",
+  "number": 145,
+  "rarity": "Legendary",
+  "image": "res://cards/images/145_Shadowblood_Queen.png"
+}
