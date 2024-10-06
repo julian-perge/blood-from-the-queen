@@ -6,5 +6,42 @@
   "ability": "When you win the lane, receive a score bonus of 3.",
   "number": 109,
   "rarity": "Legendary",
-  "image": "res://cards/images/109_Posh_Chocobo.png"
+  "image": "res://cards/images/109_Posh_Chocobo.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

@@ -6,5 +6,42 @@
   "ability": "Enhanced: raise power of allied and enemy cards on affected tiles by 4.\nEnfeebled: lower their power by 4.",
   "number": 66,
   "rarity": "Standard",
-  "image": "res://cards/images/066_Two_Face.png"
+  "image": "res://cards/images/066_Two_Face.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

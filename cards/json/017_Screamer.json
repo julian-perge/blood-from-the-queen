@@ -3,8 +3,45 @@
   "rank": "3",
   "power": 1,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 17,
   "rarity": "Standard",
-  "image": "res://cards/images/017_Screamer.png"
+  "image": "res://cards/images/017_Screamer.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

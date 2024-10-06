@@ -6,5 +6,42 @@
   "ability": "When you win the lane, receive a score bonus of 10.",
   "number": 53,
   "rarity": "Standard",
-  "image": "res://cards/images/053_Maloceros.png"
+  "image": "res://cards/images/053_Maloceros.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

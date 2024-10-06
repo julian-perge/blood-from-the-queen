@@ -5,6 +5,7 @@ class_name CardManager
 var cards = {}
 
 func _ready():
+	name = "CardManager"
 	load_all_cards()
 
 func load_all_cards():

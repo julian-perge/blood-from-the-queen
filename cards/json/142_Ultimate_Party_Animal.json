@@ -6,5 +6,42 @@
   "ability": "If this card is in play when the round ends, the loser of each lane's score is added to the victor's.",
   "number": 142,
   "rarity": "Legendary",
-  "image": "res://cards/images/142_Ultimate_Party_Animal.png"
+  "image": "res://cards/images/142_Ultimate_Party_Animal.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

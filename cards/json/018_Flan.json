@@ -3,8 +3,45 @@
   "rank": "1",
   "power": 2,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 18,
   "rarity": "Standard",
-  "image": "res://cards/images/018_Flan.png"
+  "image": "res://cards/images/018_Flan.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

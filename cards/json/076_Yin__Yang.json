@@ -6,5 +6,42 @@
   "ability": "Replace an ally and raise the power of allied cards on affected tiles by the replaced ally's power.",
   "number": 76,
   "rarity": "Standard",
-  "image": "res://cards/images/076_Yin__Yang.png"
+  "image": "res://cards/images/076_Yin__Yang.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

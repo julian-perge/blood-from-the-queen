@@ -6,5 +6,42 @@
   "ability": "Raise power by 2 for each other enhanced allied card.",
   "number": 95,
   "rarity": "Legendary",
-  "image": "res://cards/images/095_Ifrit.png"
+  "image": "res://cards/images/095_Ifrit.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

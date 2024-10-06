@@ -6,5 +6,42 @@
   "ability": "Raise power by 1 for each other enhanced or enfeebled allied and enemy card.",
   "number": 75,
   "rarity": "Standard",
-  "image": "res://cards/images/075_Adjudicator.png"
+  "image": "res://cards/images/075_Adjudicator.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

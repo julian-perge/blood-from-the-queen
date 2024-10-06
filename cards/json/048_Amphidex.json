@@ -6,5 +6,42 @@
   "ability": "The first time this card is enhanced, raise the power of allied cards on affected tiles by 3.",
   "number": 48,
   "rarity": "Standard",
-  "image": "res://cards/images/048_Amphidex.png"
+  "image": "res://cards/images/048_Amphidex.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

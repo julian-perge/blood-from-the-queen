@@ -1,10 +1,47 @@
 {
-	"name": "JUnit_Sweeper",
-	"rank": "2",
-	"power": 2,
-	"hasAbility": false,
-	"ability": "",
-	"number": 4,
-	"rarity": "Standard",
-	"image": "res://cards/images/004_JUnit_Sweeper.png"
+  "name": "JUnit_Sweeper",
+  "rank": "2",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "This card has no abilities.",
+  "number": 4,
+  "rarity": "Standard",
+  "image": "res://cards/images/004_JUnit_Sweeper.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

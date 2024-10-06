@@ -1,0 +1,558 @@
+[gd_scene load_steps=7 format=3 uid="uid://bd0jekpgfj4xr"]
+
+[ext_resource type="Script" path="res://game_manager.gd" id="1_bl3ai"]
+[ext_resource type="Script" path="res://board.gd" id="2_ebyyn"]
+[ext_resource type="Script" path="res://lane.gd" id="3_6wod2"]
+[ext_resource type="Theme" uid="uid://bw6ummmaerxxu" path="res://label_text_theme.tres" id="4_57ofx"]
+[ext_resource type="Script" path="res://card_slot.gd" id="5_httxd"]
+[ext_resource type="Script" path="res://hand.gd" id="6_3p33k"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(1920, 1080)
+
+[node name="GameManager" type="Node2D" parent="."]
+script = ExtResource("1_bl3ai")
+
+[node name="Board" type="VBoxContainer" parent="GameManager"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -768.0
+offset_right = 960.0
+offset_bottom = 312.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_ebyyn")
+
+[node name="Lane1" type="GridContainer" parent="GameManager/Board"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 7
+script = ExtResource("3_6wod2")
+
+[node name="PlayerScore" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane1/PlayerScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot1" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot1"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot2" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot3" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot4" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot5" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot5"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EnemyScore" type="ColorRect" parent="GameManager/Board/Lane1"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane1/EnemyScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Lane2" type="GridContainer" parent="GameManager/Board"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 7
+script = ExtResource("3_6wod2")
+
+[node name="PlayerScore" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane2/PlayerScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot1" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane2/CardSlot1"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot2" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane2/CardSlot2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot3" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane2/CardSlot3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot4" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane2/CardSlot4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot5" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane2/CardSlot5"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EnemyScore" type="ColorRect" parent="GameManager/Board/Lane2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane2/EnemyScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Lane3" type="GridContainer" parent="GameManager/Board"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 7
+script = ExtResource("3_6wod2")
+
+[node name="PlayerScore" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane3/PlayerScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot1" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane3/CardSlot1"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot2" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane3/CardSlot2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot3" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane3/CardSlot3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot4" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.294118, 0.333333, 0.494118, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane3/CardSlot4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CardSlot5" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.768627, 0.827451, 0.870588, 1)
+script = ExtResource("5_httxd")
+
+[node name="Pawns" type="Label" parent="GameManager/Board/Lane3/CardSlot5"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EnemyScore" type="ColorRect" parent="GameManager/Board/Lane3"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.25098, 0.258824, 0.384314, 1)
+
+[node name="Value" type="Label" parent="GameManager/Board/Lane3/EnemyScore"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_57ofx")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayerHand" type="VSplitContainer" parent="GameManager"]
+offset_left = -1920.0
+offset_top = 456.0
+offset_right = 704.0
+offset_bottom = 1024.0
+script = ExtResource("6_3p33k")
+
+[node name="Cards" type="HBoxContainer" parent="GameManager/PlayerHand"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="CardLabel" type="Label" parent="GameManager/PlayerHand"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("4_57ofx")
+theme_override_font_sizes/font_size = 72
+text = "Replace an ally and lower the power of allied and enemy cards on affected tiles by the replaced ally's power."
+vertical_alignment = 1

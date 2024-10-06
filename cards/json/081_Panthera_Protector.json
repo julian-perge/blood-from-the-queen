@@ -1,10 +1,47 @@
 {
-  "name": "Panthera_Protector",
-  "rank": "2",
-  "power": 3,
-  "hasAbility": true,
-  "ability": "The first time this card is enchanced, raise the power of allied cards on affected tiles by 4.",
-  "number": 81,
-  "rarity": "Standard",
-  "image": "res://cards/images/081_Panthera_Protector.png"
+	"name": "Panthera_Protector",
+	"rank": "2",
+	"power": 3,
+	"hasAbility": true,
+	"ability": "The first time this card is enchanced, raise the power of allied cards on affected tiles by 4.",
+	"number": 81,
+	"rarity": "Standard",
+	"image": "res://cards/images/081_Panthera_Protector.png",
+	"placement": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			1,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		]
+	]
 }

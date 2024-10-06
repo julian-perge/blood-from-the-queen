@@ -6,5 +6,42 @@
   "ability": "Possesses a crystal-hard resolve and an overwhelming amount of power.",
   "number": 114,
   "rarity": "Legendary",
-  "image": "res://cards/images/114_Mythril_Golem.png"
+  "image": "res://cards/images/114_Mythril_Golem.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

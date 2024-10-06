@@ -1,10 +1,47 @@
 {
-  "name": "Fleetwing",
-  "rank": "1",
-  "power": 3,
-  "hasAbility": false,
-  "ability": "",
-  "number": 23,
-  "rarity": "Standard",
-  "image": "res://cards/images/023_Fleetwing.png"
+	"name": "Fleetwing",
+	"rank": "1",
+	"power": 3,
+	"hasAbility": false,
+	"ability": "This card has no abilities.",
+	"number": 23,
+	"rarity": "Standard",
+	"image": "res://cards/images/023_Fleetwing.png",
+	"placement": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			1,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0,
+			0
+		]
+	]
 }

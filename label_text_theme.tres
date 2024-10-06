@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://bw6ummmaerxxu"]
+
+[ext_resource type="FontFile" uid="uid://c71oiwxmyotd2" path="res://fonts/Reactor7.ttf" id="1_ljpec"]
+
+[resource]
+default_font = ExtResource("1_ljpec")
+default_font_size = 112

@@ -6,5 +6,42 @@
   "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 6.",
   "number": 112,
   "rarity": "Legendary",
-  "image": "res://cards/images/112_Materia_Guardian.png"
+  "image": "res://cards/images/112_Materia_Guardian.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

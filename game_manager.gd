@@ -1,54 +1,52 @@
 extends Node2D
 
-const COLS = 7
-const ROWS = 3
+class_name GameManager
 
-var card_manager
-var hand
-var board
+var card_manager: CardManager
+var hand: Hand
+var game_board: Board
 
 func _ready():
-	var screen_size = get_viewport_rect().size
-	
-	board = Board.new()
-	add_child(board)
-	
 	card_manager = CardManager.new()
 	add_child(card_manager)
-	
-	hand = Hand.new()
-	hand.name = "PlayerHand"
-	hand.position = Vector2(0, screen_size.y - 150)  # Adjust 150 based on your card size
-	add_child(hand)
+	# The hand is a child of the GameManager object, so we can use $ syntax to grab it
+	hand = $PlayerHand
+	game_board = $Board
 
 	# For testing, add some cards to the hand
 	for i in range(5):
 		var random_card = card_manager.cards.values()[randi() % card_manager.cards.size()]
-		print("Adding card to hand %s" % random_card.card_name)
 		hand.add_card(random_card)
-		
-	# Position the hand after adding cards
-	var card_height = hand.cards[0].texture.get_height() * hand.cards[0].scale_factor.y if hand.cards.size() > 0 else 150
-	hand.position = Vector2(0, screen_size.y - card_height + 100)
+	# Set to the first card
+	update_card_selection()
 
-	# Ensure the hand is centered horizontally
-	hand.rearrange_cards()
-	
-	create_score_labels()
+func _input(event):
+	if event.is_action_pressed("ui_left"):
+		select_previous_card()
+	elif event.is_action_pressed("ui_right"):
+		select_next_card()
+	elif event.is_action_pressed("ui_accept"):
+		place_selected_card()
 
-func create_score_labels():
-	board.score_labels = Node2D.new()
-	board.score_labels.name = "ScoreLabels"
+func select_next_card():
+	if hand.cards.size() > 0:
+		hand.selected_card_index = (hand.selected_card_index + 1) % hand.cards.size()
+		update_card_selection()
+
+func select_previous_card():
+	if hand.cards.size() > 0:
+		hand.selected_card_index = (hand.selected_card_index - 1 + hand.cards.size()) % hand.cards.size()
+		update_card_selection()
+
+func update_card_selection():
+	print("Updating card selection with index: %s" % hand.selected_card_index)
+	hand.set_selected_card()
 	
-	for i in range(ROWS):
-		var player_label = Label.new()
-		player_label.name = "Player" + str(i)
-		player_label.text = "0"
-		player_label.position = Vector2(0, (i + 0.5) * board.CELL_SIZE)
-		board.score_labels.add_child(player_label)
-		
-		var enemy_label = Label.new()
-		enemy_label.name = "Enemy" + str(i)
-		enemy_label.text = "0"
-		enemy_label.position = Vector2((COLS - 1) * board.CELL_SIZE, (i + 0.5) * board.CELL_SIZE)
-		board.score_labels.add_child(enemy_label)
+	hand.display_card_description(hand.selected_card)
+	game_board.highlight_valid_placements(hand.cards[hand.selected_card_index])
+
+func place_selected_card():
+	# Once the player hits enter, toggle visible cursor on current card off
+	# Then, highlight board with a cursor on only visible slots, selectable slots
+	# Once card is placed, update hand and reset index back to 1
+	print("No valid placement found for the selected card.")

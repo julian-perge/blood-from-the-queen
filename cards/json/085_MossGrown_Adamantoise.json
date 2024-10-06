@@ -6,5 +6,42 @@
   "ability": "When played, raise position ranks by 3.",
   "number": 85,
   "rarity": "Standard",
-  "image": "res://cards/images/085_MossGrown_Adamantoise.png"
+  "image": "res://cards/images/085_MossGrown_Adamantoise.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

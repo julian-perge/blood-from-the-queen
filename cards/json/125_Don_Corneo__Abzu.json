@@ -6,5 +6,42 @@
   "ability": "When played, add both Cacneo and Donberry to your hand.",
   "number": 125,
   "rarity": "Legendary",
-  "image": "res://cards/images/125_Don_Corneo__Abzu.png"
+  "image": "res://cards/images/125_Don_Corneo__Abzu.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

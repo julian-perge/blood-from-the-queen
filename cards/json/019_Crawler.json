@@ -3,8 +3,45 @@
   "rank": "1",
   "power": 2,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 19,
   "rarity": "Standard",
-  "image": "res://cards/images/019_Crawler.png"
+  "image": "res://cards/images/019_Crawler.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

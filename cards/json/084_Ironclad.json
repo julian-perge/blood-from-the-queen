@@ -6,5 +6,42 @@
   "ability": "Raise power by 3 for each enhanced enemy card.",
   "number": 84,
   "rarity": "Standard",
-  "image": "res://cards/images/084_Ironclad.png"
+  "image": "res://cards/images/084_Ironclad.png",
+  "placement": [
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  1,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	]
+  ]
 }

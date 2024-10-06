@@ -6,5 +6,42 @@
   "ability": "When played, add Moogle to your hand.",
   "number": 92,
   "rarity": "Legendary",
-  "image": "res://cards/images/092_Cait_Sith.png"
+  "image": "res://cards/images/092_Cait_Sith.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

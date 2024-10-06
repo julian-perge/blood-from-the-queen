@@ -6,5 +6,42 @@
   "ability": "When played, lower the power of allied and enemy cards on affected tiles by 5.",
   "number": 119,
   "rarity": "Legendary",
-  "image": "res://cards/images/119_Dyne.png"
+  "image": "res://cards/images/119_Dyne.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

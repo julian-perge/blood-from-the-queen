@@ -6,5 +6,42 @@
   "ability": "Raise the power of allied and enemy cards on affected tiles by 3 while this card is in play.",
   "number": 121,
   "rarity": "Legendary",
-  "image": "res://cards/images/121_Specimen_H1024.png"
+  "image": "res://cards/images/121_Specimen_H1024.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

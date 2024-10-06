@@ -6,5 +6,42 @@
   "ability": "Creates a surfeit of positions around it when played.",
   "number": 108,
   "rarity": "Legendary",
-  "image": "res://cards/images/108_Fat_Chocobo.png"
+  "image": "res://cards/images/108_Fat_Chocobo.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

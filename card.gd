@@ -1,4 +1,4 @@
-extends Area2D
+extends Control
 
 class_name Card
 
@@ -9,78 +9,59 @@ var has_ability: bool
 var ability: String
 var number: int
 var rarity: String
+var placement: Array
 var texture: Texture2D
 
-var dragging = false
-var drag_offset = Vector2.ZERO
-var original_position = Vector2.ZERO
-var scale_factor = Vector2(1.25, 1.25)  # Adjust scale as needed
+var scale_factor = Vector2(0.35, 0.35)  # Cards are originally 768x1056
+var selection_indicator: Control
+var selected = false
 
 func _init(data: Dictionary):
-	# print(data)
 	card_name = data["name"]
+	name = card_name
 	rank = data["rank"]
 	power = data["power"]
 	has_ability = data["hasAbility"]
 	ability = data["ability"]
 	number = data["number"]
 	rarity = data["rarity"]
+	placement = data["placement"]
 	
 	# Load the card texture
 	texture = load(data["image"])
 
+func _to_string() -> String:
+	return "Name: [%s] Rank: [%s] Power: [%s] Ability: [%s]" % [card_name, rank, power, ability]
+
 func _ready():
-	# Create a sprite to display the card
+	name = card_name
+	# Makes it so that the card will expand the full horizontal length
+	size_flags_horizontal = SizeFlags.SIZE_EXPAND_FILL
+	# Create the card sprite
 	var sprite = Sprite2D.new()
 	sprite.texture = texture
 	sprite.scale = scale_factor
-		
+	# Disable centering on the sprite so the card doesn't appear above the grid
+	sprite.centered = false
+	# Add the sprite as a child of the Card
 	add_child(sprite)
+
+	# Add a selection indicator (cursor.png)
+	selection_indicator = Control.new()
+	selection_indicator.set_anchors_preset(Control.PRESET_CENTER_TOP)
+	selection_indicator.size_flags_horizontal = SizeFlags.SIZE_EXPAND_FILL
+	selection_indicator.size_flags_vertical = SizeFlags.SIZE_EXPAND_FILL
+	selection_indicator.name = "SelectionIndicator"
+	selection_indicator.visible = false
+	var selection_indicator_sprite = Sprite2D.new()
+	selection_indicator_sprite.texture = load("res://cursor.png")
+	selection_indicator.add_child(selection_indicator_sprite)
 	
-	# Add labels for rank and power
-	#var rank_label = Label.new()
-	#rank_label.text = rank
-	#rank_label.position = Vector2(10, 10)  # Adjust position as needed
-	#add_child(rank_label)
-	#
-	#var power_label = Label.new()
-	#power_label.text = str(power)
-	#power_label.position = Vector2(90, 10)  # Adjust position as needed
-	#add_child(power_label)
+	# Now add the cursor control as child to the card sprite, this makes centering it easier
+	sprite.add_child(selection_indicator)
 
-	# Set up collision shape for Area2D
-	var collision_shape = CollisionShape2D.new()
-	var shape = RectangleShape2D.new()
-	var extents = sprite.texture.get_size() * sprite.scale / 2
-	shape.extents = extents
-	collision_shape.shape = shape
-	add_child(collision_shape)
-	
-	original_position = position
-
-func get_card_width():
-	return texture.get_width() * scale_factor.x
-
-func _input_event(viewport, event, shape_idx):
-	if event is InputEventMouseButton:
-		if event.button_index == MOUSE_BUTTON_LEFT:
-			if event.pressed:
-				dragging = true
-				drag_offset = position - get_global_mouse_position()
-				get_parent().move_child(self, get_parent().get_child_count() - 1)  # Bring to front
-				var board = get_tree().get_root().get_node("GameManager/Board")
-				board.highlight_valid_placements(self)
-			else:
-				dragging = false
-				var board = get_tree().get_root().get_node("GameManager/Board")
-				var cell = board.get_cell_at_position(get_global_mouse_position())
-				if board.place_card(self, cell):
-					get_parent().remove_child(self)
-					board.add_child(self)
-				else:
-					position = original_position
-				board.clear_highlights()
-
-func _process(delta):
-	if dragging:
-		position = get_global_mouse_position() + drag_offset
+func set_selected(is_selected: bool) -> void:
+	if is_selected:
+		print("Card %s is selected %s" % [name, is_selected])
+	selected = is_selected
+	selection_indicator.visible = selected

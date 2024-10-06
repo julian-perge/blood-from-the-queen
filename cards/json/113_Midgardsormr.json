@@ -6,5 +6,42 @@
   "ability": "When allied and enemy cards are destroyed, raise this card's power by 1.",
   "number": 113,
   "rarity": "Legendary",
-  "image": "res://cards/images/113_Midgardsormr.png"
+  "image": "res://cards/images/113_Midgardsormr.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

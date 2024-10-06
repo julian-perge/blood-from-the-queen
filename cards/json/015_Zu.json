@@ -3,8 +3,45 @@
   "rank": "2",
   "power": 2,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 15,
   "rarity": "Standard",
-  "image": "res://cards/images/015_Zu.png"
+  "image": "res://cards/images/015_Zu.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

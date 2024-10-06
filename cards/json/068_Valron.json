@@ -6,5 +6,42 @@
   "ability": "Raise power by 2 for each other enfeebled allied card.",
   "number": 68,
   "rarity": "Standard",
-  "image": "res://cards/images/068_Valron.png"
+  "image": "res://cards/images/068_Valron.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

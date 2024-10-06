@@ -6,5 +6,42 @@
   "ability": "When enemy cards are destroyed, raise this card's power by 2.",
   "number": 120,
   "rarity": "Legendary",
-  "image": "res://cards/images/120_Anuran_Suppressor.png"
+  "image": "res://cards/images/120_Anuran_Suppressor.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

@@ -6,5 +6,42 @@
   "ability": "When destroyed, raise the power of allied cards on affected tile by 3.",
   "number": 82,
   "rarity": "Standard",
-  "image": "res://cards/images/082_Hecteyes.png"
+  "image": "res://cards/images/082_Hecteyes.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

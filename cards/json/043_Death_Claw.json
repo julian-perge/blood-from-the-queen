@@ -6,5 +6,42 @@
   "ability": "When enemy cards are destroyed, raise this card's power by 1.",
   "number": 43,
   "rarity": "Standard",
-  "image": "res://cards/images/043_Death_Claw.png"
+  "image": "res://cards/images/043_Death_Claw.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

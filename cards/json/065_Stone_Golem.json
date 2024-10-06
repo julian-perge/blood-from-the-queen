@@ -6,5 +6,42 @@
   "ability": "When first enhanced, lower the power of enemy cards on affected tiles by 4.",
   "number": 65,
   "rarity": "Standard",
-  "image": "res://cards/images/065_Stone_Golem.png"
+  "image": "res://cards/images/065_Stone_Golem.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

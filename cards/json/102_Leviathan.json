@@ -6,5 +6,42 @@
   "ability": "Lower the power of enemy cards on affected tiles by 3 while this card is in play.",
   "number": 102,
   "rarity": "Legendary",
-  "image": "res://cards/images/102_Leviathan.png"
+  "image": "res://cards/images/102_Leviathan.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

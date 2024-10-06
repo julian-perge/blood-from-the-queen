@@ -1,10 +1,47 @@
 {
-	"name": "Levrikon",
-	"rank": "1",
-	"power": 2,
-	"hasAbility": false,
-	"ability": "",
-	"number": 7,
-	"rarity": "Standard",
-	"image": "res://cards/images/007_Levrikon.png"
+  "name": "Levrikon",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "This card has no abilities.",
+  "number": 7,
+  "rarity": "Standard",
+  "image": "res://cards/images/007_Levrikon.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

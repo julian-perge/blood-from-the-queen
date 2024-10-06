@@ -6,5 +6,42 @@
   "ability": "When destroyed, lower the power of allied and enemy cards on affected tiles by 4.",
   "number": 37,
   "rarity": "Standard",
-  "image": "res://cards/images/037_Bloatfloat.png"
+  "image": "res://cards/images/037_Bloatfloat.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

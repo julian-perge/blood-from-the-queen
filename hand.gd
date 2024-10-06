@@ -1,43 +1,27 @@
-extends Node2D
+extends VSplitContainer
 
 class_name Hand
 
+var CardsObj: BoxContainer
+var CardAbilityLabel: Label
 var cards = []
-var CARD_SPACING = 200  # We'll calculate this based on screen size and card count
+@export var selected_card: Card
+@export var selected_card_index: int = 0
 
-func _ready():
-	calculate_card_spacing()
-
-func calculate_card_spacing():
-	if cards.size() == 0:
-		return
-	var screen_size = get_viewport_rect().size
-	var card_width = cards[0].get_card_width()
-	var total_width = card_width * cards.size()
-	
-	if total_width <= screen_size.x:
-		# If all cards fit, space them evenly
-		CARD_SPACING = min((screen_size.x - total_width) / (cards.size() + 1) + card_width, card_width * 1.1)
-	else:
-		# If cards don't fit, allow overlap
-		CARD_SPACING = (screen_size.x - card_width) / (cards.size() - 1)
+func _ready() -> void:
+	CardsObj = $Cards
+	CardAbilityLabel = $CardLabel
 
 func add_card(card: Card):
+	print("Adding card to hand -> %s" % card.to_string())
 	cards.append(card)
-	calculate_card_spacing()
-	rearrange_cards()
-	add_child(card)
+	CardsObj.add_child(card)
 
-func rearrange_cards():
-	var screen_size = get_viewport_rect().size
-	var total_width = CARD_SPACING * (cards.size() - 1) + cards[0].get_card_width()
-	var start_x = (screen_size.x - total_width) / 2
-
+func set_selected_card() -> void:
 	for i in range(cards.size()):
-		var target_x = start_x + i * CARD_SPACING
-		cards[i].position = Vector2(target_x, 0)
+		cards[i].set_selected(i == selected_card_index)
+		selected_card = cards[selected_card_index]
 
-func return_card_to_hand(card: Card):
-	if card in cards:
-		calculate_card_spacing()
-		rearrange_cards()
+func display_card_description(card: Card):
+	print("Displaying card ability [%s] - [%s]" % [card.card_name, card.ability])
+	CardAbilityLabel.text = card.ability

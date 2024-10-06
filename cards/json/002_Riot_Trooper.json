@@ -1,10 +1,47 @@
 {
-	"name": "Riot_Trooper",
-	"rank": "2",
-	"power": 3,
-	"hasAbility": false,
-	"ability": "",
-	"number": 2,
-	"rarity": "Standard",
-	"image": "res://cards/images/002_Riot_Trooper.png"
+  "name": "Riot_Trooper",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": false,
+  "ability": "This card has no abilities.",
+  "number": 2,
+  "rarity": "Standard",
+  "image": "res://cards/images/002_Riot_Trooper.png",
+  "placement": [
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  1,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	],
+	[
+	  0,
+	  0,
+	  0,
+	  0,
+	  0
+	]
+  ]
 }

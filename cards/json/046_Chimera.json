@@ -6,5 +6,42 @@
   "ability": "Raise power by 2 for each enfeebled enemy card.",
   "number": 46,
   "rarity": "Standard",
-  "image": "res://cards/images/046_Chimera.png"
+  "image": "res://cards/images/046_Chimera.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

@@ -6,5 +6,42 @@
   "ability": "When played, destroy allied and enemy cards on affected tiles.",
   "number": 39,
   "rarity": "Standard",
-  "image": "res://cards/images/039_Cockatrice.png"
+  "image": "res://cards/images/039_Cockatrice.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

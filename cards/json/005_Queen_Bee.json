@@ -3,8 +3,45 @@
   "rank": "1",
   "power": 1,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 5,
   "rarity": "Standard",
-  "image": "res://cards/images/005_Queen_Bee.png"
+  "image": "res://cards/images/005_Queen_Bee.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

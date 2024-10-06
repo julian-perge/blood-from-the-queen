@@ -6,5 +6,42 @@
   "ability": "When first enfeebled, lower the power of enemy cards on affected tiles by 2.",
   "number": 90,
   "rarity": "Legendary",
-  "image": "res://cards/images/090_Red_XIII.png"
+  "image": "res://cards/images/090_Red_XIII.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

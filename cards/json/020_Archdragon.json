@@ -6,5 +6,42 @@
   "ability": "When played, lower the power of enemy cards on affected tiles by 3.",
   "number": 20,
   "rarity": "Standard",
-  "image": "res://cards/images/020_Archdragon.png"
+  "image": "res://cards/images/020_Archdragon.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

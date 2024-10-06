@@ -1,10 +1,47 @@
 {
-	"name": "Chocobo__Moogle",
-	"rank": "1",
-	"power": 1,
-	"hasAbility": true,
-	"ability": "Raise power by 1 for each other ehanced allied card.",
-	"number": 107,
-	"rarity": "Legendary",
-	"image": "res://cards/images/107_Chocobo__Moogle.png"
+  "name": "Chocobo__Moogle",
+  "rank": "1",
+  "power": 1,
+  "hasAbility": true,
+  "ability": "Raise power by 1 for each other ehanced allied card.",
+  "number": 107,
+  "rarity": "Legendary",
+  "image": "res://cards/images/107_Chocobo__Moogle.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

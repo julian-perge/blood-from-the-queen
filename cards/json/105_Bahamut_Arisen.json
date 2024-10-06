@@ -6,5 +6,42 @@
   "ability": "When played, spawn Elementals\u2014cards that enhance when destroyed\u2014in your empty positions.",
   "number": 105,
   "rarity": "Legendary",
-  "image": "res://cards/images/105_Bahamut_Arisen.png"
+  "image": "res://cards/images/105_Bahamut_Arisen.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

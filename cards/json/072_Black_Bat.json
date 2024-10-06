@@ -6,5 +6,42 @@
   "ability": "When played, lower the power of allied and enemy cards on affected tiles by 1.",
   "number": 72,
   "rarity": "Standard",
-  "image": "res://cards/images/072_Black_Bat.png"
+  "image": "res://cards/images/072_Black_Bat.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

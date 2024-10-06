@@ -3,8 +3,45 @@
   "rank": "2",
   "power": 4,
   "hasAbility": false,
-  "ability": "",
+  "ability": "This card has no abilities.",
   "number": 42,
   "rarity": "Standard",
-  "image": "res://cards/images/042_Thug.png"
+  "image": "res://cards/images/042_Thug.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

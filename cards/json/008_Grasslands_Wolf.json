@@ -1,10 +1,47 @@
 {
-	"name": "Grasslands_Wolf",
-	"rank": "1",
-	"power": 2,
-	"hasAbility": false,
-	"ability": "",
-	"number": 8,
-	"rarity": "Standard",
-	"image": "res://cards/images/008_Grasslands_Wolf.png"
+  "name": "Grasslands_Wolf",
+  "rank": "1",
+  "power": 2,
+  "hasAbility": false,
+  "ability": "This card has no abilities.",
+  "number": 8,
+  "rarity": "Standard",
+  "image": "res://cards/images/008_Grasslands_Wolf.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

@@ -1,10 +1,47 @@
 {
-	"name": "Saucer_Squad",
-	"rank": "2",
-	"power": 3,
-	"hasAbility": true,
-	"ability": "Makes use of its adorable nature to enliven the battlefield.",
-	"number": 140,
-	"rarity": "Legendary",
-	"image": "res://cards/images/140_Saucer_Squad.png"
+  "name": "Saucer_Squad",
+  "rank": "2",
+  "power": 3,
+  "hasAbility": true,
+  "ability": "Makes use of its adorable nature to enliven the battlefield.",
+  "number": 140,
+  "rarity": "Legendary",
+  "image": "res://cards/images/140_Saucer_Squad.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

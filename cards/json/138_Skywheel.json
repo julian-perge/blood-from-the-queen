@@ -6,5 +6,42 @@
   "ability": "Adds positions in the shape of a certain Gold Saucer attraction.",
   "number": 138,
   "rarity": "Legendary",
-  "image": "res://cards/images/138_Skywheel.png"
+  "image": "res://cards/images/138_Skywheel.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }

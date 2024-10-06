@@ -6,5 +6,42 @@
   "ability": "Raise power by 1 for each other enhanced allied and enemy card.",
   "number": 141,
   "rarity": "Legendary",
-  "image": "res://cards/images/141_Dio.png"
+  "image": "res://cards/images/141_Dio.png",
+  "placement": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
 }
