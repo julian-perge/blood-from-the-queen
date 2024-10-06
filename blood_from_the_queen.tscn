@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bd0jekpgfj4xr"]
+[gd_scene load_steps=8 format=3 uid="uid://bd0jekpgfj4xr"]
 
 [ext_resource type="Script" path="res://game_manager.gd" id="1_bl3ai"]
 [ext_resource type="Script" path="res://board.gd" id="2_ebyyn"]
@@ -6,6 +6,7 @@
 [ext_resource type="Theme" uid="uid://bw6ummmaerxxu" path="res://label_text_theme.tres" id="4_57ofx"]
 [ext_resource type="Script" path="res://card_slot.gd" id="5_httxd"]
 [ext_resource type="Script" path="res://hand.gd" id="6_3p33k"]
+[ext_resource type="Texture2D" uid="uid://c6oilgw3nrpor" path="res://cards/images/001_Security_Officer.png" id="6_nspqe"]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2(1920, 1080)
@@ -63,6 +64,20 @@ layout_mode = 2
 size_flags_horizontal = 3
 color = Color(0.768627, 0.827451, 0.870588, 1)
 script = ExtResource("5_httxd")
+
+[node name="TestCard" type="Control" parent="GameManager/Board/Lane1/CardSlot1"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="GameManager/Board/Lane1/CardSlot1/TestCard"]
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_nspqe")
+centered = false
 
 [node name="Pawns" type="Label" parent="GameManager/Board/Lane1/CardSlot1"]
 layout_mode = 1

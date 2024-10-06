@@ -7,11 +7,11 @@
   "number": 1,
   "rarity": "Standard",
   "image": "res://cards/images/001_Security_Officer.png",
-  "placement": [
-	[],
-	[0,0,1,0,0],
-	[0,1,1,1,0],
-	[0,0,1,0,0],
-	[]
-  ]
+	"placement": [
+	[0, 0, 0, 0, 0],
+	[0, 0, 1, 0, 0],
+	[0, 1, 1, 1, 0],
+	[0, 0, 1, 0, 0],
+	[0, 0, 0, 0, 0]
+	]
 }

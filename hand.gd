@@ -25,3 +25,13 @@ func set_selected_card() -> void:
 func display_card_description(card: Card):
 	print("Displaying card ability [%s] - [%s]" % [card.card_name, card.ability])
 	CardAbilityLabel.text = card.ability
+
+func remove_card(index: int) -> Card:
+	if 0 <= index and index < cards.size():
+		var card = cards[index]
+		var removed_card = cards.pop_at(index)
+		if selected_card_index >= cards.size():
+			selected_card_index = max(0, cards.size() - 1)
+		set_selected_card()
+		return removed_card
+	return null
