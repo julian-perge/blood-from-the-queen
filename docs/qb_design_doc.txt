@@ -1,0 +1,20 @@
+You are a software programmer creating a TCG (Trading Card Game) in the Godot engine. Create a design document based on the rules below, and images attached.
+
+- Each player takes their turn to place cards on one of the three lanes that span from left to right. 
+- The player can place cards on tiles with an emerald pawn. 
+- When a card on the hand is selected, the tiles where that card can be played are highlighted. 
+- Once a card is placed on the board, its value is added to the lane's total score and new positions become available. 
+- Lanes' point totals on each side of the board keep track of who is winning. 
+- The emerald numbers on the left are the player's score. 
+- Each card's value is shown with a yellow number on its top right corner, while the positioned the card will add to the board when played are indicated by the yellow squares in the graphic at the bottom middle of the card.
+
+- A card is played by having one of its yellow tiles overlap with one of the player's available positions on the board, indicated by the emerald pawns. 
+- When the played card's position tile overlaps with an already available position, it will rank up, indicated by numerous emerald pawns in the same tile, up to Rank 3. 
+- Cards can only be played on positions equal to or higher than their rank, i.e. a Rank 3 card can only be played on a tile that has three emerald pawns. 
+- Each card's rank is shown with the number of pawn symbols in their upper left corner. 
+- To be able to play the more powerful cards, the player will need to level up their available positions by playing cards near them with position tiles that overlap. 
+- Overlapping position tiles with an enemy's position (red pawn), will claim that position for the player; the opponent can do the same against the player.
+
+- Some cards have red-bordered tiles, which denote that the card has an ability which will affect these tiles when the card is placed on the board.
+- Some abilities affect the player's own cards, such as boosting allied cards' score on the affected tiles, and some cards' abilities affect opponent's cards, such as lowering their scores.
+- Some have unique abilities that do not need a red-bordered tile to activate and are simply in effect as long as the card is in play, such as an effect that gives bonus points to the lane if the card is played on a lane that the player wins. 

@@ -12,12 +12,11 @@ config_version=5
 
 config/name="queens_blood"
 run/main_scene="res://blood_from_the_queen.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=3840
 window/size/viewport_height=2160
-window/size/resizable=false
 window/stretch/mode="canvas_items"

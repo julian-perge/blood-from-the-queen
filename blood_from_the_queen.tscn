@@ -1,15 +1,14 @@
 [gd_scene load_steps=8 format=3 uid="uid://bd0jekpgfj4xr"]
 
-[ext_resource type="Script" path="res://game_manager.gd" id="1_bl3ai"]
-[ext_resource type="Script" path="res://board.gd" id="2_ebyyn"]
-[ext_resource type="Script" path="res://lane.gd" id="3_6wod2"]
+[ext_resource type="Script" uid="uid://hyaxc8msrcku" path="res://game_manager.gd" id="1_bl3ai"]
+[ext_resource type="Script" uid="uid://dkwha0ive807s" path="res://board.gd" id="2_ebyyn"]
+[ext_resource type="Script" uid="uid://bt7v1xk1lk856" path="res://lane.gd" id="3_6wod2"]
 [ext_resource type="Theme" uid="uid://bw6ummmaerxxu" path="res://label_text_theme.tres" id="4_57ofx"]
-[ext_resource type="Script" path="res://card_slot.gd" id="5_httxd"]
-[ext_resource type="Script" path="res://hand.gd" id="6_3p33k"]
+[ext_resource type="Script" uid="uid://c10lifyblgkq" path="res://card_slot.gd" id="5_httxd"]
+[ext_resource type="Script" uid="uid://btjp407w5nusy" path="res://hand.gd" id="6_3p33k"]
 [ext_resource type="Texture2D" uid="uid://c6oilgw3nrpor" path="res://cards/images/001_Security_Officer.png" id="6_nspqe"]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(1920, 1080)
 
 [node name="GameManager" type="Node2D" parent="."]
 script = ExtResource("1_bl3ai")
@@ -20,12 +19,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -960.0
-offset_top = -768.0
-offset_right = 960.0
-offset_bottom = 312.0
+offset_left = -12.0
+offset_top = -4.0
+offset_right = 12.0
+offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
 script = ExtResource("2_ebyyn")
 
 [node name="Lane1" type="GridContainer" parent="GameManager/Board"]
@@ -553,10 +555,16 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="PlayerHand" type="VSplitContainer" parent="GameManager"]
-offset_left = -1920.0
-offset_top = 456.0
-offset_right = 704.0
-offset_bottom = 1024.0
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -1413.0
+offset_top = -66.0
+offset_right = 1413.0
+grow_horizontal = 2
+grow_vertical = 0
 script = ExtResource("6_3p33k")
 
 [node name="Cards" type="HBoxContainer" parent="GameManager/PlayerHand"]
